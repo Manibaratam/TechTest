@@ -8,7 +8,6 @@
 
 import Foundation
 import XMLParsing
-import Alamofire
 
 class SearchTrainInteractor: PresenterToInteractorProtocol {
     var _sourceStationCode = String()
