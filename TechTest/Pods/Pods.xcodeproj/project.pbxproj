@@ -1,0 +1,1236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CEE5AD6B0B80308944D3D1F885174A /* XMLParsing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D736C498CEF598BCB26AE8727FAA53C /* XMLParsing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C63C253DF7B4CE0D4F62E5DA15B153 /* XMLParsing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9800F55A080D1483B15D69C5F58CDFFD /* XMLParsing-dummy.m */; };
+		0C86D2BEDBF2FF24AE4A74A931945EA9 /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 119ED31DAD667D92D51956FA4E330A8D /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19925E21908776BA2C6F530CB3B6D0E2 /* XMLDecodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DAE56E8BC3637E91B3D3B8FA42E54 /* XMLDecodingStorage.swift */; };
+		19EA863621F8E5B946FFA158BD17992D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		1A76E4DF2F7D18F483DE30CE4BDCFD92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		1AA3E14D59CA392AF3530B3B5570C575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		2D6A6A53BE257B1C28AA50E8F2A44B6C /* Pods-MyTravelHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C754DB60E2CA6CDDAD7907CF449554DB /* Pods-MyTravelHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615CFA53A5C17EFCECA272F602BC52B /* DropDownCell.swift */; };
+		42DE81B9A7210FF4E719AFC7DC047176 /* EncodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513E5122A4C59A6DECB4206238C3692 /* EncodingErrorExtension.swift */; };
+		4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5CFBDB787A7FFDC901525AA442300 /* DPDUIView+Extension.swift */; };
+		5CBACFF37B27343C4AD29F11EC095932 /* ISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9071C3F0ADD3E01398DA16D1A2CF509 /* ISO8601DateFormatter.swift */; };
+		5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E316204A1F9D97B84B968AF6C89C84EF /* DPDConstants.swift */; };
+		6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2891743370C721564C6DA45A5F84F /* DropDown+Appearance.swift */; };
+		618D9C6E8BFF0C7AAD509E9279488585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		62D3F0414BD78697B1BCEE5EEE1F93FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		71452B550080362A930FD5951A4BBB66 /* Pods-MyTravelHelperTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B693808AE03F56436BDA60F1C117749 /* Pods-MyTravelHelperTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F1E679B65B8CDC39D1910F89E5FED5 /* XMLKeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08361E988510D94414FAEF9EAA44C70D /* XMLKeyedDecodingContainer.swift */; };
+		842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64EF961A40B51C822DE19DA1041BD0 /* DropDown.swift */; };
+		87D4E2F0B4D3FD6EF2665FE86C845729 /* Pods-MyTravelHelperTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0E132918FB743A49E05E467CFF33D7 /* Pods-MyTravelHelperTests-dummy.m */; };
+		9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F355638E2120A53704DB3F71239714 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9843E0577A8D505822A30098073EDD57 /* DropDown-dummy.m */; };
+		96CDEF49E69A1887137C93010FACDCBF /* XMLKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B00765EEE484D8A8F4B919FEDB7F7D /* XMLKey.swift */; };
+		9BAFAA663D0E09DCEA7111C1009035AE /* XMLStackParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D9442E0DDED6ABCDCE4A804EC36258 /* XMLStackParser.swift */; };
+		B770FDB8AA22F2E81870A26FC3D44CCF /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5849F2EEE47E7B99242BFAC85F7774D /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E015403EE8F2F262988793D3E6C7543C /* DPDKeyboardListener.swift */; };
+		C00D71AF46506594FB97D7EAEA578A48 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC80F3D89392B625EF687A5B804B053 /* SwiftSpinner.swift */; };
+		C48777388547C9CF0DA0F4E8656F9E90 /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD64F0DE5D377C2E20EBE487BD9E638 /* SwiftSpinner-dummy.m */; };
+		D59E7D8D33A52BA0201712FECB8E4C8F /* XMLReferencingEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE82051751EEEC77A9A168DEE612D71 /* XMLReferencingEncoder.swift */; };
+		D7DAA5FB5D36CA02D1C3463BD6D52587 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		D8F639EC240A89604908B8B4E7C3E37F /* XMLUnkeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606578E7F5AC2163B37ECDC0EBBBCF59 /* XMLUnkeyedDecodingContainer.swift */; };
+		E08505792C042CA16A180B25EA3321B8 /* Pods-MyTravelHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CA00DDB0BA7AE0BE221F42CE3B88D /* Pods-MyTravelHelper-dummy.m */; };
+		EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393D8355C36F1746A52ACF434E381D35 /* DropDownCell.xib */; };
+		EDF08A6D90AA39A750EC79098AF5C5ED /* DecodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395FB1AA03F4C0BCBC80AE85745C19E /* DecodingErrorExtension.swift */; };
+		F83AC08EC1381541052F3265E22F4F43 /* XMLDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37370C3E53813CFB9A06F1F3185C97A1 /* XMLDecoder.swift */; };
+		FB1F6B03407A99F6E7E2A8E154AA7152 /* XMLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D1E1296E7CBC994D2315D3D8D906EC /* XMLEncoder.swift */; };
+		FCEE83AC3E8DADF8EDE0AA8318B7F710 /* XMLEncodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B409B47A954584838A91295DB3038 /* XMLEncodingStorage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38E0D9CFFC0F9BB83F504CE90C6FF8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A50DD62815F356BE9CCB6598F5E59F8;
+			remoteInfo = "Pods-MyTravelHelper";
+		};
+		8103BC390F5A52B5DDB6F5619DC005E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB8B9995741E5CB8E3A51613B3BCC62;
+			remoteInfo = XMLParsing;
+		};
+		917813EB9F46CD3394423FC0C163CD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		DF45D6745F18A7D395F63D76ACCC2C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD6AB655C132B9B011FC04DDC1E3A292;
+			remoteInfo = SwiftSpinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D1E1296E7CBC994D2315D3D8D906EC /* XMLEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLEncoder.swift; path = Sources/XMLParsing/Encoder/XMLEncoder.swift; sourceTree = "<group>"; };
+		08361E988510D94414FAEF9EAA44C70D /* XMLKeyedDecodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLKeyedDecodingContainer.swift; path = Sources/XMLParsing/Decoder/XMLKeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		094FAA451B7710DD6616A8250E79E8F3 /* Pods-MyTravelHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTravelHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		0C6496C31855334E353C2F02D98D6231 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D736C498CEF598BCB26AE8727FAA53C /* XMLParsing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLParsing-umbrella.h"; sourceTree = "<group>"; };
+		0D9084F67BEA7FAE35A4FA575AF2D369 /* Pods-MyTravelHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTravelHelper.release.xcconfig"; sourceTree = "<group>"; };
+		1058EEB75E8C436A7D07D5E5932DCFF6 /* Pods-MyTravelHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyTravelHelper.modulemap"; sourceTree = "<group>"; };
+		119ED31DAD667D92D51956FA4E330A8D /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		125074CE86810D921133D530A89FB68E /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		1E3A01F03E3ADBA6FA1DFBBF1DD216C3 /* SwiftSpinner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSpinner-Info.plist"; sourceTree = "<group>"; };
+		2526640A4B57470EF9A8D98F6295C151 /* Pods-MyTravelHelper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTravelHelper-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BB15ADADAEEDE523DDAD09A33A47A60 /* Pods_MyTravelHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyTravelHelper.framework; path = "Pods-MyTravelHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B00765EEE484D8A8F4B919FEDB7F7D /* XMLKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLKey.swift; path = Sources/XMLParsing/XMLKey.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		37370C3E53813CFB9A06F1F3185C97A1 /* XMLDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLDecoder.swift; path = Sources/XMLParsing/Decoder/XMLDecoder.swift; sourceTree = "<group>"; };
+		38AC826DE559469B6AE30A0D2FFDD19B /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		393D8355C36F1746A52ACF434E381D35 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		3FE5CFBDB787A7FFDC901525AA442300 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		41E65CEB823FB52114524FCC75BBEC22 /* Pods-MyTravelHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTravelHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4FB0F3FF05CC0DC0697386A0BC4D4194 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		51A96359FC64E319AEECA27189316CCF /* Pods-MyTravelHelperTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTravelHelperTests-Info.plist"; sourceTree = "<group>"; };
+		55DBBB1164A984A039B9F86A1E3B9FBD /* XMLParsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMLParsing.framework; path = XMLParsing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9B304AE3B78CACB857CA3575BC6CEA /* Pods-MyTravelHelperTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyTravelHelperTests.modulemap"; sourceTree = "<group>"; };
+		5DB4156AF1D6D8E7FAC759287D015CC6 /* XMLParsing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLParsing-prefix.pch"; sourceTree = "<group>"; };
+		606578E7F5AC2163B37ECDC0EBBBCF59 /* XMLUnkeyedDecodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLUnkeyedDecodingContainer.swift; path = Sources/XMLParsing/Decoder/XMLUnkeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		6B088B202B32B418D4CD15B0F67D38F0 /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
+		75A2891743370C721564C6DA45A5F84F /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		784CA00DDB0BA7AE0BE221F42CE3B88D /* Pods-MyTravelHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyTravelHelper-dummy.m"; sourceTree = "<group>"; };
+		7AEC906404789E5E6908758E14AB3714 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		7BD64F0DE5D377C2E20EBE487BD9E638 /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		7E04BB5CFC23A73C611BFAC128667476 /* Pods-MyTravelHelperTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTravelHelperTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F9FE6BB784125E144F61EE9E9C42A2C /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		8513E5122A4C59A6DECB4206238C3692 /* EncodingErrorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncodingErrorExtension.swift; path = Sources/XMLParsing/Encoder/EncodingErrorExtension.swift; sourceTree = "<group>"; };
+		8BE82051751EEEC77A9A168DEE612D71 /* XMLReferencingEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLReferencingEncoder.swift; path = Sources/XMLParsing/Encoder/XMLReferencingEncoder.swift; sourceTree = "<group>"; };
+		9800F55A080D1483B15D69C5F58CDFFD /* XMLParsing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMLParsing-dummy.m"; sourceTree = "<group>"; };
+		9843E0577A8D505822A30098073EDD57 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B693808AE03F56436BDA60F1C117749 /* Pods-MyTravelHelperTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyTravelHelperTests-umbrella.h"; sourceTree = "<group>"; };
+		9BC80F3D89392B625EF687A5B804B053 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		9D28BE6FB368A8C1278E99A6F5A5B6F9 /* XMLParsing-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMLParsing-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E64EF961A40B51C822DE19DA1041BD0 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		A395FB1AA03F4C0BCBC80AE85745C19E /* DecodingErrorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodingErrorExtension.swift; path = Sources/XMLParsing/Decoder/DecodingErrorExtension.swift; sourceTree = "<group>"; };
+		A5F355638E2120A53704DB3F71239714 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		A9071C3F0ADD3E01398DA16D1A2CF509 /* ISO8601DateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateFormatter.swift; path = Sources/XMLParsing/ISO8601DateFormatter.swift; sourceTree = "<group>"; };
+		AAFF02A1B9BB90CF4AC625B8BF813872 /* Pods-MyTravelHelper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyTravelHelper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5849F2EEE47E7B99242BFAC85F7774D /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		C0CD8024DBF0C7A78F134BCDEB7D88E5 /* Pods-MyTravelHelper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTravelHelper-frameworks.sh"; sourceTree = "<group>"; };
+		C754DB60E2CA6CDDAD7907CF449554DB /* Pods-MyTravelHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyTravelHelper-umbrella.h"; sourceTree = "<group>"; };
+		CE3DAE56E8BC3637E91B3D3B8FA42E54 /* XMLDecodingStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLDecodingStorage.swift; path = Sources/XMLParsing/Decoder/XMLDecodingStorage.swift; sourceTree = "<group>"; };
+		D57DA529ADDDE4D86CF27C98F37F8162 /* Pods_MyTravelHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyTravelHelperTests.framework; path = "Pods-MyTravelHelperTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69ACBD4B44743D092CFE49F126F2476 /* XMLParsing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMLParsing.modulemap; sourceTree = "<group>"; };
+		DD622684F78E04E790680B90794CDB72 /* XMLParsing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLParsing.xcconfig; sourceTree = "<group>"; };
+		E015403EE8F2F262988793D3E6C7543C /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		E316204A1F9D97B84B968AF6C89C84EF /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		EB0E132918FB743A49E05E467CFF33D7 /* Pods-MyTravelHelperTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyTravelHelperTests-dummy.m"; sourceTree = "<group>"; };
+		EBDE27DF7AABCEBBA138B8835B26B2C6 /* Pods-MyTravelHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyTravelHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECA4D6CD18303C3834ABD4327CB09B6D /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		F49130B05798E849785D43815A8945AD /* Pods-MyTravelHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTravelHelper-Info.plist"; sourceTree = "<group>"; };
+		F5D9442E0DDED6ABCDCE4A804EC36258 /* XMLStackParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLStackParser.swift; path = Sources/XMLParsing/XMLStackParser.swift; sourceTree = "<group>"; };
+		F615CFA53A5C17EFCECA272F602BC52B /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		F74758FC7886428248ECD79B5D28E647 /* Pods-MyTravelHelperTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyTravelHelperTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA0B409B47A954584838A91295DB3038 /* XMLEncodingStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLEncodingStorage.swift; path = Sources/XMLParsing/Encoder/XMLEncodingStorage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15069ED6071F2D9E1BA5B779FD8A78FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EA863621F8E5B946FFA158BD17992D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204222376EFFC7D99B1FB70FBC5C8B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA3E14D59CA392AF3530B3B5570C575 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9727840973A9C2692E58F7089A7C243E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618D9C6E8BFF0C7AAD509E9279488585 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C4FD3696DF8C026F11D62C9C5E7C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A76E4DF2F7D18F483DE30CE4BDCFD92 /* Foundation.framework in Frameworks */,
+				D7DAA5FB5D36CA02D1C3463BD6D52587 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7C4D713AC46C84B9959BD8E4D019C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D3F0414BD78697B1BCEE5EEE1F93FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		170EF8FB46D6314CCBA884450A69FB2C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EBF5B94773F19E64458E8055057934E /* Pods-MyTravelHelper */,
+				D897F21CB64296B70435E4FDECCC3C21 /* Pods-MyTravelHelperTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45831731F04EA092FBB1E38E64872744 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				125074CE86810D921133D530A89FB68E /* SwiftSpinner.modulemap */,
+				6B088B202B32B418D4CD15B0F67D38F0 /* SwiftSpinner.xcconfig */,
+				7BD64F0DE5D377C2E20EBE487BD9E638 /* SwiftSpinner-dummy.m */,
+				1E3A01F03E3ADBA6FA1DFBBF1DD216C3 /* SwiftSpinner-Info.plist */,
+				7AEC906404789E5E6908758E14AB3714 /* SwiftSpinner-prefix.pch */,
+				B5849F2EEE47E7B99242BFAC85F7774D /* SwiftSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		4645DC056AC51FA70666813C87A66B13 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				119ED31DAD667D92D51956FA4E330A8D /* SwiftSpinner.h */,
+				9BC80F3D89392B625EF687A5B804B053 /* SwiftSpinner.swift */,
+				45831731F04EA092FBB1E38E64872744 /* Support Files */,
+			);
+			name = SwiftSpinner;
+			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
+		55FDB4604FFA3FE7567D3518FE256635 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D69ACBD4B44743D092CFE49F126F2476 /* XMLParsing.modulemap */,
+				DD622684F78E04E790680B90794CDB72 /* XMLParsing.xcconfig */,
+				9800F55A080D1483B15D69C5F58CDFFD /* XMLParsing-dummy.m */,
+				9D28BE6FB368A8C1278E99A6F5A5B6F9 /* XMLParsing-Info.plist */,
+				5DB4156AF1D6D8E7FAC759287D015CC6 /* XMLParsing-prefix.pch */,
+				0D736C498CEF598BCB26AE8727FAA53C /* XMLParsing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XMLParsing";
+			sourceTree = "<group>";
+		};
+		5628A8CA174AF275D854B2888994FA6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0BCDF61D8F744AE5A749AC92B85E6AD /* DropDown */,
+				4645DC056AC51FA70666813C87A66B13 /* SwiftSpinner */,
+				8A58142794A701F1CE73CA7A10FCF46D /* XMLParsing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EBF5B94773F19E64458E8055057934E /* Pods-MyTravelHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1058EEB75E8C436A7D07D5E5932DCFF6 /* Pods-MyTravelHelper.modulemap */,
+				AAFF02A1B9BB90CF4AC625B8BF813872 /* Pods-MyTravelHelper-acknowledgements.markdown */,
+				2526640A4B57470EF9A8D98F6295C151 /* Pods-MyTravelHelper-acknowledgements.plist */,
+				784CA00DDB0BA7AE0BE221F42CE3B88D /* Pods-MyTravelHelper-dummy.m */,
+				C0CD8024DBF0C7A78F134BCDEB7D88E5 /* Pods-MyTravelHelper-frameworks.sh */,
+				F49130B05798E849785D43815A8945AD /* Pods-MyTravelHelper-Info.plist */,
+				C754DB60E2CA6CDDAD7907CF449554DB /* Pods-MyTravelHelper-umbrella.h */,
+				094FAA451B7710DD6616A8250E79E8F3 /* Pods-MyTravelHelper.debug.xcconfig */,
+				0D9084F67BEA7FAE35A4FA575AF2D369 /* Pods-MyTravelHelper.release.xcconfig */,
+			);
+			name = "Pods-MyTravelHelper";
+			path = "Target Support Files/Pods-MyTravelHelper";
+			sourceTree = "<group>";
+		};
+		7DD1A85B7AD243335E4AF2A07777ECD3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA4D6CD18303C3834ABD4327CB09B6D /* DropDown.modulemap */,
+				7F9FE6BB784125E144F61EE9E9C42A2C /* DropDown.xcconfig */,
+				9843E0577A8D505822A30098073EDD57 /* DropDown-dummy.m */,
+				4FB0F3FF05CC0DC0697386A0BC4D4194 /* DropDown-Info.plist */,
+				38AC826DE559469B6AE30A0D2FFDD19B /* DropDown-prefix.pch */,
+				A5F355638E2120A53704DB3F71239714 /* DropDown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		8A58142794A701F1CE73CA7A10FCF46D /* XMLParsing */ = {
+			isa = PBXGroup;
+			children = (
+				A395FB1AA03F4C0BCBC80AE85745C19E /* DecodingErrorExtension.swift */,
+				8513E5122A4C59A6DECB4206238C3692 /* EncodingErrorExtension.swift */,
+				A9071C3F0ADD3E01398DA16D1A2CF509 /* ISO8601DateFormatter.swift */,
+				37370C3E53813CFB9A06F1F3185C97A1 /* XMLDecoder.swift */,
+				CE3DAE56E8BC3637E91B3D3B8FA42E54 /* XMLDecodingStorage.swift */,
+				06D1E1296E7CBC994D2315D3D8D906EC /* XMLEncoder.swift */,
+				FA0B409B47A954584838A91295DB3038 /* XMLEncodingStorage.swift */,
+				30B00765EEE484D8A8F4B919FEDB7F7D /* XMLKey.swift */,
+				08361E988510D94414FAEF9EAA44C70D /* XMLKeyedDecodingContainer.swift */,
+				8BE82051751EEEC77A9A168DEE612D71 /* XMLReferencingEncoder.swift */,
+				F5D9442E0DDED6ABCDCE4A804EC36258 /* XMLStackParser.swift */,
+				606578E7F5AC2163B37ECDC0EBBBCF59 /* XMLUnkeyedDecodingContainer.swift */,
+				55FDB4604FFA3FE7567D3518FE256635 /* Support Files */,
+			);
+			name = XMLParsing;
+			path = XMLParsing;
+			sourceTree = "<group>";
+		};
+		BB7FAAD072599CF25DAB1D093EFDFAA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				2BB15ADADAEEDE523DDAD09A33A47A60 /* Pods_MyTravelHelper.framework */,
+				D57DA529ADDDE4D86CF27C98F37F8162 /* Pods_MyTravelHelperTests.framework */,
+				0C6496C31855334E353C2F02D98D6231 /* SwiftSpinner.framework */,
+				55DBBB1164A984A039B9F86A1E3B9FBD /* XMLParsing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				5628A8CA174AF275D854B2888994FA6E /* Pods */,
+				BB7FAAD072599CF25DAB1D093EFDFAA5 /* Products */,
+				170EF8FB46D6314CCBA884450A69FB2C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D897F21CB64296B70435E4FDECCC3C21 /* Pods-MyTravelHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9B304AE3B78CACB857CA3575BC6CEA /* Pods-MyTravelHelperTests.modulemap */,
+				F74758FC7886428248ECD79B5D28E647 /* Pods-MyTravelHelperTests-acknowledgements.markdown */,
+				7E04BB5CFC23A73C611BFAC128667476 /* Pods-MyTravelHelperTests-acknowledgements.plist */,
+				EB0E132918FB743A49E05E467CFF33D7 /* Pods-MyTravelHelperTests-dummy.m */,
+				51A96359FC64E319AEECA27189316CCF /* Pods-MyTravelHelperTests-Info.plist */,
+				9B693808AE03F56436BDA60F1C117749 /* Pods-MyTravelHelperTests-umbrella.h */,
+				41E65CEB823FB52114524FCC75BBEC22 /* Pods-MyTravelHelperTests.debug.xcconfig */,
+				EBDE27DF7AABCEBBA138B8835B26B2C6 /* Pods-MyTravelHelperTests.release.xcconfig */,
+			);
+			name = "Pods-MyTravelHelperTests";
+			path = "Target Support Files/Pods-MyTravelHelperTests";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0BCDF61D8F744AE5A749AC92B85E6AD /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				E316204A1F9D97B84B968AF6C89C84EF /* DPDConstants.swift */,
+				E015403EE8F2F262988793D3E6C7543C /* DPDKeyboardListener.swift */,
+				3FE5CFBDB787A7FFDC901525AA442300 /* DPDUIView+Extension.swift */,
+				9E64EF961A40B51C822DE19DA1041BD0 /* DropDown.swift */,
+				75A2891743370C721564C6DA45A5F84F /* DropDown+Appearance.swift */,
+				F615CFA53A5C17EFCECA272F602BC52B /* DropDownCell.swift */,
+				F5E50807124600D77489363662BBF00A /* Resources */,
+				7DD1A85B7AD243335E4AF2A07777ECD3 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		F5E50807124600D77489363662BBF00A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				393D8355C36F1746A52ACF434E381D35 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886A1FC9DC84D92224A7315EF11F479D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CEE5AD6B0B80308944D3D1F885174A /* XMLParsing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CDEAD6971E9BA292475E7BC59AD674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6A6A53BE257B1C28AA50E8F2A44B6C /* Pods-MyTravelHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97A3A4B30AE441A7F7961E05CA3993C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B770FDB8AA22F2E81870A26FC3D44CCF /* SwiftSpinner-umbrella.h in Headers */,
+				0C86D2BEDBF2FF24AE4A74A931945EA9 /* SwiftSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CC61C1AF93B2770DB33320E880BC7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71452B550080362A930FD5951A4BBB66 /* Pods-MyTravelHelperTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A50DD62815F356BE9CCB6598F5E59F8 /* Pods-MyTravelHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267B6F776EA848BF437FA8EC6083D4CB /* Build configuration list for PBXNativeTarget "Pods-MyTravelHelper" */;
+			buildPhases = (
+				D8CDEAD6971E9BA292475E7BC59AD674 /* Headers */,
+				E3E3C8E13BEA135CC212564844E0F76A /* Sources */,
+				EF7C4D713AC46C84B9959BD8E4D019C6 /* Frameworks */,
+				42B6737280A5341DEAEE77B15278A9F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FA2B048D23B5FBCD8E4AE5FF3311EBF /* PBXTargetDependency */,
+				E840DCDD3A1FB95E7F9080E1DC4CD190 /* PBXTargetDependency */,
+				1F15711978F52C434FE88A8C8FC7127A /* PBXTargetDependency */,
+			);
+			name = "Pods-MyTravelHelper";
+			productName = "Pods-MyTravelHelper";
+			productReference = 2BB15ADADAEEDE523DDAD09A33A47A60 /* Pods_MyTravelHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888B91D12CEDEFEC62B50FE74D0A74C0 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildPhases = (
+				D97A3A4B30AE441A7F7961E05CA3993C /* Headers */,
+				495696B72538D2A337ECB795705EDE2E /* Sources */,
+				99C4FD3696DF8C026F11D62C9C5E7C5A /* Frameworks */,
+				B0C37BA9CD9390E4D66E237930FF22F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSpinner;
+			productName = SwiftSpinner;
+			productReference = 0C6496C31855334E353C2F02D98D6231 /* SwiftSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDB8B9995741E5CB8E3A51613B3BCC62 /* XMLParsing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF72E1244AB26FD4B318BA07321DFB1 /* Build configuration list for PBXNativeTarget "XMLParsing" */;
+			buildPhases = (
+				886A1FC9DC84D92224A7315EF11F479D /* Headers */,
+				33E959A569820729C7606B6FD580A96B /* Sources */,
+				15069ED6071F2D9E1BA5B779FD8A78FE /* Frameworks */,
+				9C37F11EBC0F9832930D5065EFD09FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLParsing;
+			productName = XMLParsing;
+			productReference = 55DBBB1164A984A039B9F86A1E3B9FBD /* XMLParsing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFDA6520A775B3B58113E101B4C8E613 /* Pods-MyTravelHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A05E101618FA036FA31D0602503A1F /* Build configuration list for PBXNativeTarget "Pods-MyTravelHelperTests" */;
+			buildPhases = (
+				F5CC61C1AF93B2770DB33320E880BC7F /* Headers */,
+				33CEA6B59C5124D74CB3B39FE73B115B /* Sources */,
+				204222376EFFC7D99B1FB70FBC5C8B36 /* Frameworks */,
+				7E2608480F94E22217D94FD06CA19ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B733588C55C8E34B506405A9D3B11DEA /* PBXTargetDependency */,
+			);
+			name = "Pods-MyTravelHelperTests";
+			productName = "Pods-MyTravelHelperTests";
+			productReference = D57DA529ADDDE4D86CF27C98F37F8162 /* Pods_MyTravelHelperTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */,
+				FAFA782452D3B598A37FB459CD314120 /* Sources */,
+				9727840973A9C2692E58F7089A7C243E /* Frameworks */,
+				D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BB7FAAD072599CF25DAB1D093EFDFAA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				8A50DD62815F356BE9CCB6598F5E59F8 /* Pods-MyTravelHelper */,
+				BFDA6520A775B3B58113E101B4C8E613 /* Pods-MyTravelHelperTests */,
+				AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */,
+				BDB8B9995741E5CB8E3A51613B3BCC62 /* XMLParsing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B6737280A5341DEAEE77B15278A9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2608480F94E22217D94FD06CA19ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C37F11EBC0F9832930D5065EFD09FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C37BA9CD9390E4D66E237930FF22F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CEA6B59C5124D74CB3B39FE73B115B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D4E2F0B4D3FD6EF2665FE86C845729 /* Pods-MyTravelHelperTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E959A569820729C7606B6FD580A96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF08A6D90AA39A750EC79098AF5C5ED /* DecodingErrorExtension.swift in Sources */,
+				42DE81B9A7210FF4E719AFC7DC047176 /* EncodingErrorExtension.swift in Sources */,
+				5CBACFF37B27343C4AD29F11EC095932 /* ISO8601DateFormatter.swift in Sources */,
+				F83AC08EC1381541052F3265E22F4F43 /* XMLDecoder.swift in Sources */,
+				19925E21908776BA2C6F530CB3B6D0E2 /* XMLDecodingStorage.swift in Sources */,
+				FB1F6B03407A99F6E7E2A8E154AA7152 /* XMLEncoder.swift in Sources */,
+				FCEE83AC3E8DADF8EDE0AA8318B7F710 /* XMLEncodingStorage.swift in Sources */,
+				96CDEF49E69A1887137C93010FACDCBF /* XMLKey.swift in Sources */,
+				81F1E679B65B8CDC39D1910F89E5FED5 /* XMLKeyedDecodingContainer.swift in Sources */,
+				06C63C253DF7B4CE0D4F62E5DA15B153 /* XMLParsing-dummy.m in Sources */,
+				D59E7D8D33A52BA0201712FECB8E4C8F /* XMLReferencingEncoder.swift in Sources */,
+				9BAFAA663D0E09DCEA7111C1009035AE /* XMLStackParser.swift in Sources */,
+				D8F639EC240A89604908B8B4E7C3E37F /* XMLUnkeyedDecodingContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495696B72538D2A337ECB795705EDE2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48777388547C9CF0DA0F4E8656F9E90 /* SwiftSpinner-dummy.m in Sources */,
+				C00D71AF46506594FB97D7EAEA578A48 /* SwiftSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E3C8E13BEA135CC212564844E0F76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08505792C042CA16A180B25EA3321B8 /* Pods-MyTravelHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA782452D3B598A37FB459CD314120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */,
+				BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */,
+				4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */,
+				6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */,
+				95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */,
+				842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */,
+				361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F15711978F52C434FE88A8C8FC7127A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMLParsing;
+			target = BDB8B9995741E5CB8E3A51613B3BCC62 /* XMLParsing */;
+			targetProxy = 8103BC390F5A52B5DDB6F5619DC005E8 /* PBXContainerItemProxy */;
+		};
+		9FA2B048D23B5FBCD8E4AE5FF3311EBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 917813EB9F46CD3394423FC0C163CD74 /* PBXContainerItemProxy */;
+		};
+		B733588C55C8E34B506405A9D3B11DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyTravelHelper";
+			target = 8A50DD62815F356BE9CCB6598F5E59F8 /* Pods-MyTravelHelper */;
+			targetProxy = 38E0D9CFFC0F9BB83F504CE90C6FF8C1 /* PBXContainerItemProxy */;
+		};
+		E840DCDD3A1FB95E7F9080E1DC4CD190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */;
+			targetProxy = DF45D6745F18A7D395F63D76ACCC2C4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C940EAC4EBFB2E09D8039256EB2679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9FE6BB784125E144F61EE9E9C42A2C /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30A6F2A492AD1A4288375D02F886BBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094FAA451B7710DD6616A8250E79E8F3 /* Pods-MyTravelHelper.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTravelHelper/Pods-MyTravelHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTravelHelper/Pods-MyTravelHelper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3861722544E2B2C6279D36F3BE28DE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD622684F78E04E790680B90794CDB72 /* XMLParsing.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMLParsing/XMLParsing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMLParsing/XMLParsing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMLParsing/XMLParsing.modulemap";
+				PRODUCT_MODULE_NAME = XMLParsing;
+				PRODUCT_NAME = XMLParsing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D6A3E842D79481BCC436500A3AEB772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B088B202B32B418D4CD15B0F67D38F0 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSpinner;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		78AF4DA708D190124ADE261F939FBDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9FE6BB784125E144F61EE9E9C42A2C /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		932B1B07CD43404B96DC29D1E8D6D8C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9084F67BEA7FAE35A4FA575AF2D369 /* Pods-MyTravelHelper.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTravelHelper/Pods-MyTravelHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTravelHelper/Pods-MyTravelHelper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		989333CF6F9B8DB4B35E79E4B9A80B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDE27DF7AABCEBBA138B8835B26B2C6 /* Pods-MyTravelHelperTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTravelHelperTests/Pods-MyTravelHelperTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTravelHelperTests/Pods-MyTravelHelperTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE7F82C7E81060A2C862B5EA242D1AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD622684F78E04E790680B90794CDB72 /* XMLParsing.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMLParsing/XMLParsing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMLParsing/XMLParsing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMLParsing/XMLParsing.modulemap";
+				PRODUCT_MODULE_NAME = XMLParsing;
+				PRODUCT_NAME = XMLParsing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7152EB6AFC4F17C0C25FFF16C69E90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E65CEB823FB52114524FCC75BBEC22 /* Pods-MyTravelHelperTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyTravelHelperTests/Pods-MyTravelHelperTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyTravelHelperTests/Pods-MyTravelHelperTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF465AECCFCBD44328FC08249C9617EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B088B202B32B418D4CD15B0F67D38F0 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSpinner;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267B6F776EA848BF437FA8EC6083D4CB /* Build configuration list for PBXNativeTarget "Pods-MyTravelHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A6F2A492AD1A4288375D02F886BBA0 /* Debug */,
+				932B1B07CD43404B96DC29D1E8D6D8C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF72E1244AB26FD4B318BA07321DFB1 /* Build configuration list for PBXNativeTarget "XMLParsing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7F82C7E81060A2C862B5EA242D1AD3 /* Debug */,
+				3861722544E2B2C6279D36F3BE28DE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888B91D12CEDEFEC62B50FE74D0A74C0 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6A3E842D79481BCC436500A3AEB772 /* Debug */,
+				CF465AECCFCBD44328FC08249C9617EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A05E101618FA036FA31D0602503A1F /* Build configuration list for PBXNativeTarget "Pods-MyTravelHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7152EB6AFC4F17C0C25FFF16C69E90A /* Debug */,
+				989333CF6F9B8DB4B35E79E4B9A80B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C940EAC4EBFB2E09D8039256EB2679 /* Debug */,
+				78AF4DA708D190124ADE261F939FBDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
